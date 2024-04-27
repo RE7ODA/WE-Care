@@ -1,9 +1,14 @@
 /* Google Fonts - poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-@media screen and (max-width:480px){
-.clinics-cards{
- width: 100%;
+@media only screen and ( max-width: 600px){
+
 }
+@media only screen and ( max-width: 600px) and (max-width: 900px)
+{
+
+}
+@media only screen and ( max-width: 900px){
+
 }
 *,
 *:after,
@@ -24,22 +29,24 @@
     overflow: hidden;
     position: relative;
     top: -11px;
-    right: -30.0%;
-    width: 40%;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 .card-img{
     position: relative;
     width: 100%;
     display: table;
 }
+.menu{
+    z-index: 5;
+}
 .size-img{
     width: 453px;
     text-align: center;
     position: relative;
-    left: 19%;
     top: 0px;
+    z-index: 1;
     border-radius: 50px;
     margin: 1rem;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
