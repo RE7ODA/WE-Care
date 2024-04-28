@@ -52,9 +52,10 @@
 }
 .clinics-list{
     width:320px ;
+    height: 380px;
+    margin-bottom: 3rem;
     border-radius: 25px;
     background-color: #fff;
-    margin-bottom: 3rem;
 }
 .imag-content,
 .cards-content
@@ -102,13 +103,16 @@
     font-size: 14px;
     color: #707070;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 0px 0px;
+    line-height: 22px;
 }
 .stars-collection
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    bottom: 20px;
 }
 .clinic-location{
     text-decoration: none;
@@ -119,9 +123,19 @@
     position: relative;
     bottom: 7px;
 }
-    .star{
-        color: rgb(255, 217, 0);
-        position: relative;
-        top: 50%;
-        left: 10px;
-    }
+.star{
+    color: rgb(255, 217, 0);
+    position: relative;
+    top: 50%;
+    left: 10px;
+}
+.Show-details{
+    text-decoration: none;
+    background: #0085ff;
+    border-radius: 7px;
+    color: #fff;
+    padding: 8px;
+    position: relative;
+    top: 65px;
+    left: 85px;
+}
